@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Regression Test Script Execution Status]">
+  <listeners>
+    <listener class-name="atu.testng.reports.listeners.ATUReportsListener"/>
+    <listener class-name="atu.testng.reports.listeners.ConfigurationListener"/>
+    <listener class-name="atu.testng.reports.listeners.MethodListener"/>
+  </listeners>
+  <test name="SignInTestcase(failed)">
+    <classes>
+      <class name="com.ta3s.testcases.LoginTest">
+        <methods>
+          <include name="SignIn"/>
+          <include name="initiate"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.ta3s.testcases.LoginTest -->
+    </classes>
+  </test> <!-- SignInTestcase(failed) -->
+</suite> <!-- Failed suite [Regression Test Script Execution Status] -->

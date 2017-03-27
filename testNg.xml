@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Regression Test Script Execution Status" verbose="1">
+
+   <listeners>
+  <listener class-name="atu.testng.reports.listeners.ATUReportsListener"></listener>
+  <listener class-name="atu.testng.reports.listeners.ConfigurationListener"></listener>
+  <listener class-name="atu.testng.reports.listeners.MethodListener"></listener>
+  </listeners>
+
+    <test name="SignInTestcase">
+    <classes>
+      <class name="com.ta3s.testcases.LoginTest"/>
+   </classes>
+   </test>
+
+   
+  
+
+  </suite>
+  
+  
+
